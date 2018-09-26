@@ -7,8 +7,6 @@
 "2"," input string 1 is invalid in this locale
 "
 "0","student <- read_csv(""https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/student.csv"")"
-"2","`curl` package not installed, falling back to using `url()`
-"
 "2","Parsed with column specification:
 cols(
   ¤J¾Ç¦~ = col_character(),

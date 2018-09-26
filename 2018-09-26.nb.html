@@ -249,9 +249,8 @@ In strsplit(code, &quot;\n&quot;, fixed = TRUE) :
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3R1ZGVudCA8LSByZWFkX2NzdihcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cGVtYXJ0aW4vY291cnNlLTEwNy0xLXByb2dyYW1taW5nLWZvci1kYXRhLXNjaWVuY2UvbWFzdGVyL2RhdGEvc3R1ZGVudC5jc3ZcIilcbmBgYCJ9 -->
 <pre class="r"><code>student &lt;- read_csv(&quot;https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/student.csv&quot;)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiYGN1cmxgIHBhY2thZ2Ugbm90IGluc3RhbGxlZCwgZmFsbGluZyBiYWNrIHRvIHVzaW5nIGB1cmwoKWBcblBhcnNlZCB3aXRoIGNvbHVtbiBzcGVjaWZpY2F0aW9uOlxuY29scyhcbiAgpEq+x6Z+ID0gY29sX2NoYXJhY3RlcigpLFxuICClWKXNpmEgPSBjb2xfY2hhcmFjdGVyKCksXG4gIKnKp08gPSBjb2xfY2hhcmFjdGVyKCksXG4gIKitsKogPSBjb2xfZG91YmxlKClcbilcbiJ9 -->
-<pre><code>`curl` package not installed, falling back to using `url()`
-Parsed with column specification:
+<!-- rnb-output-begin eyJkYXRhIjoiUGFyc2VkIHdpdGggY29sdW1uIHNwZWNpZmljYXRpb246XG5jb2xzKFxuICCkSr7Hpn4gPSBjb2xfY2hhcmFjdGVyKCksXG4gIKVYpc2mYSA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgqcqnTyA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgqK2wqiA9IGNvbF9kb3VibGUoKVxuKVxuIn0= -->
+<pre><code>Parsed with column specification:
 cols(
   愼㸴J戼㹥Ǧ~ = col_character(),
   愼㸵X愼㸵ͦa = col_character(),
@@ -266,9 +265,22 @@ student %&lt;&gt;% mutate(
   身高級距=cut(身高,c(0,150,155,160,165,170,175,180,185,200)))</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-output-begin eyJkYXRhIjoiSW4gc3Ryc3BsaXQoY29kZSwgXCJcXG5cIiwgZml4ZWQgPSBUUlVFKSA6XG4gIGlucHV0IHN0cmluZyAxIGlzIGludmFsaWQgaW4gdGhpcyBsb2NhbGVcbiJ9 -->
+<pre><code>In strsplit(code, &quot;\n&quot;, fixed = TRUE) :
+  input string 1 is invalid in this locale</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGV2ZWxzKHN0dWRlbnQk5Ye655Sf5ZywKVxuYGBgIn0= -->
+<pre class="r"><code>levels(student$出生地)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMDktMjYiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KYGBge3J9DQphPC01DQphMjwtNUwNCmBgYA0KDQpgYGB7cn0NCmFWZWN0b3I8LWMoNSw2LDcpDQphMlZlY3RvcjwtYyg1TCw2TCw3TCkNCmBgYA0KDQpgYGB7cn0NCm51bTE8LTEuNTY4DQpudW0yPC0yLjEyMQ0Kcm91bmQobnVtMSxkaWdpdHMgPSAyKSAtPiByb3VuZE51bTENCmBgYA0KDQpgYGB7cn0NCmI8LSLkvaDlpb0iDQpiVmVjdG9yPC1jKCLkvaDlpb0iLCJIb3cgYXJlIHlvdT8iKQ0KYjI8LSfkvaDlpb0nDQpgYGANCg0KYGBge3J9DQpiMzwtIuS9oOWlvSciDQpgYGANCg0KYGBge3J9DQpiNDwtJyLkvaDlpb0iJw0KYGBgDQoNCiMjIDJuZCBjbGFzcw0KDQpgYGB7cn0NCnJvdW5kKDIuMTIxKQ0KYGBgDQoNCmBgYHtyfQ0KbGlicmFyeShyZWFkcikNCnN0dWRlbnQgPC0gcmVhZF9jc3YoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cGVtYXJ0aW4vY291cnNlLTEwNy0xLXByb2dyYW1taW5nLWZvci1kYXRhLXNjaWVuY2UvbWFzdGVyL2RhdGEvc3R1ZGVudC5jc3YiKQ0KbGlicmFyeShkcGx5cikNCmxpYnJhcnkobWFncml0dHIpDQpzdHVkZW50ICU8PiUgbXV0YXRlKA0KICDouqvpq5jntJrot509Y3V0KOi6q+mrmCxjKDAsMTUwLDE1NSwxNjAsMTY1LDE3MCwxNzUsMTgwLDE4NSwyMDApKSkNCmBgYA0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMDktMjYiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KYGBge3J9DQphPC01DQphMjwtNUwNCmBgYA0KDQpgYGB7cn0NCmFWZWN0b3I8LWMoNSw2LDcpDQphMlZlY3RvcjwtYyg1TCw2TCw3TCkNCmBgYA0KDQpgYGB7cn0NCm51bTE8LTEuNTY4DQpudW0yPC0yLjEyMQ0Kcm91bmQobnVtMSxkaWdpdHMgPSAyKSAtPiByb3VuZE51bTENCmBgYA0KDQpgYGB7cn0NCmI8LSLkvaDlpb0iDQpiVmVjdG9yPC1jKCLkvaDlpb0iLCJIb3cgYXJlIHlvdT8iKQ0KYjI8LSfkvaDlpb0nDQpgYGANCg0KYGBge3J9DQpiMzwtIuS9oOWlvSciDQpgYGANCg0KYGBge3J9DQpiNDwtJyLkvaDlpb0iJw0KYGBgDQoNCiMjIDJuZCBjbGFzcw0KDQpgYGB7cn0NCnJvdW5kKDIuMTIxKQ0KYGBgDQoNCmBgYHtyfQ0KbGlicmFyeShyZWFkcikNCnN0dWRlbnQgPC0gcmVhZF9jc3YoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cGVtYXJ0aW4vY291cnNlLTEwNy0xLXByb2dyYW1taW5nLWZvci1kYXRhLXNjaWVuY2UvbWFzdGVyL2RhdGEvc3R1ZGVudC5jc3YiKQ0KbGlicmFyeShkcGx5cikNCmxpYnJhcnkobWFncml0dHIpDQpzdHVkZW50ICU8PiUgbXV0YXRlKA0KICDouqvpq5jntJrot509Y3V0KOi6q+mrmCxjKDAsMTUwLDE1NSwxNjAsMTY1LDE3MCwxNzUsMTgwLDE4NSwyMDApKSkNCmBgYA0KYGBge3J9DQphcy5mYWN0b3Ioc3R1ZGVudCTlh7rnlJ/lnLApIC0+IHN0dWRlbnQk5Ye655Sf5ZywDQpgYGANCmBgYHtyfQ0KbGV2ZWxzKHN0dWRlbnQk5Ye655Sf5ZywKQ0KYGBgDQoNCg==</div>
 
 
 
