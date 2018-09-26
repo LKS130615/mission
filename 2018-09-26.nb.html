@@ -203,22 +203,72 @@ round(num1,digits = 2) -&gt; roundNum1</code></pre>
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYjwtXCLkvaDlpb1cIlxuYlZlY3RvcjwtYyhcIuS9oOWlvVwiLFwiSG93IGFyZSB5b3U/XCIpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYjwtXCLkvaDlpb1cIlxuYlZlY3RvcjwtYyhcIuS9oOWlvVwiLFwiSG93IGFyZSB5b3U/XCIpXG5iMjwtJ+S9oOWlvSdcbmBgYCJ9 -->
 <pre class="r"><code>b&lt;-&quot;你好&quot;
-bVector&lt;-c(&quot;你好&quot;,&quot;How are you?&quot;)</code></pre>
+bVector&lt;-c(&quot;你好&quot;,&quot;How are you?&quot;)
+b2&lt;-'你好'</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYjI8LVwi5L2g5aW9XCJcbmBgYCJ9 -->
-<pre class="r"><code>b2&lt;-&quot;你好&quot;</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYjM8LVwi5L2g5aW9J1wiXG5gYGAifQ== -->
+<pre class="r"><code>b3&lt;-&quot;你好'&quot;</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYjQ8LSdcIuS9oOWlvVwiJ1xuYGBgIn0= -->
+<pre class="r"><code>b4&lt;-'&quot;你好&quot;'</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<div id="nd-class" class="section level2">
+<h2>2nd class</h2>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucm91bmQoMi4xMjEpXG5gYGAifQ== -->
+<pre class="r"><code>round(2.121)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDJcbiJ9 -->
+<pre><code>[1] 2</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZWFkcilcbmBgYCJ9 -->
+<pre class="r"><code>library(readr)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiV2FybmluZyBtZXNzYWdlOlxuSW4gc3Ryc3BsaXQoY29kZSwgXCJcXG5cIiwgZml4ZWQgPSBUUlVFKSA6XG4gIGlucHV0IHN0cmluZyAxIGlzIGludmFsaWQgaW4gdGhpcyBsb2NhbGVcbiJ9 -->
+<pre><code>Warning message:
+In strsplit(code, &quot;\n&quot;, fixed = TRUE) :
+  input string 1 is invalid in this locale</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3R1ZGVudCA8LSByZWFkX2NzdihcImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cGVtYXJ0aW4vY291cnNlLTEwNy0xLXByb2dyYW1taW5nLWZvci1kYXRhLXNjaWVuY2UvbWFzdGVyL2RhdGEvc3R1ZGVudC5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>student &lt;- read_csv(&quot;https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/student.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiYGN1cmxgIHBhY2thZ2Ugbm90IGluc3RhbGxlZCwgZmFsbGluZyBiYWNrIHRvIHVzaW5nIGB1cmwoKWBcblBhcnNlZCB3aXRoIGNvbHVtbiBzcGVjaWZpY2F0aW9uOlxuY29scyhcbiAgpEq+x6Z+ID0gY29sX2NoYXJhY3RlcigpLFxuICClWKXNpmEgPSBjb2xfY2hhcmFjdGVyKCksXG4gIKnKp08gPSBjb2xfY2hhcmFjdGVyKCksXG4gIKitsKogPSBjb2xfZG91YmxlKClcbilcbiJ9 -->
+<pre><code>`curl` package not installed, falling back to using `url()`
+Parsed with column specification:
+cols(
+  愼㸴J戼㹥Ǧ~ = col_character(),
+  愼㸵X愼㸵ͦa = col_character(),
+  愼㸹ʧO = col_character(),
+  愼㸸愼㹤戼㸰愼㹡 = col_double()
+)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShkcGx5cilcbmxpYnJhcnkobWFncml0dHIpXG5zdHVkZW50ICU8PiUgbXV0YXRlKFxuICDouqvpq5jntJrot509Y3V0KOi6q+mrmCxjKDAsMTUwLDE1NSwxNjAsMTY1LDE3MCwxNzUsMTgwLDE4NSwyMDApKSlcbmBgYCJ9 -->
+<pre class="r"><code>library(dplyr)
+library(magrittr)
+student %&lt;&gt;% mutate(
+  身高級距=cut(身高,c(0,150,155,160,165,170,175,180,185,200)))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+</div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMDktMjYiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KYGBge3J9DQphPC01DQphMjwtNUwNCmBgYA0KDQpgYGB7cn0NCmFWZWN0b3I8LWMoNSw2LDcpDQphMlZlY3RvcjwtYyg1TCw2TCw3TCkNCmBgYA0KDQpgYGB7cn0NCm51bTE8LTEuNTY4DQpudW0yPC0yLjEyMQ0Kcm91bmQobnVtMSxkaWdpdHMgPSAyKSAtPiByb3VuZE51bTENCmBgYA0KDQpgYGB7cn0NCmI8LSLkvaDlpb0iDQpiVmVjdG9yPC1jKCLkvaDlpb0iLCJIb3cgYXJlIHlvdT8iKQ0KYGBgDQoNCmBgYHtyfQ0KYjI8LSLkvaDlpb0iDQpgYGANCg0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMDktMjYiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KYGBge3J9DQphPC01DQphMjwtNUwNCmBgYA0KDQpgYGB7cn0NCmFWZWN0b3I8LWMoNSw2LDcpDQphMlZlY3RvcjwtYyg1TCw2TCw3TCkNCmBgYA0KDQpgYGB7cn0NCm51bTE8LTEuNTY4DQpudW0yPC0yLjEyMQ0Kcm91bmQobnVtMSxkaWdpdHMgPSAyKSAtPiByb3VuZE51bTENCmBgYA0KDQpgYGB7cn0NCmI8LSLkvaDlpb0iDQpiVmVjdG9yPC1jKCLkvaDlpb0iLCJIb3cgYXJlIHlvdT8iKQ0KYjI8LSfkvaDlpb0nDQpgYGANCg0KYGBge3J9DQpiMzwtIuS9oOWlvSciDQpgYGANCg0KYGBge3J9DQpiNDwtJyLkvaDlpb0iJw0KYGBgDQoNCiMjIDJuZCBjbGFzcw0KDQpgYGB7cn0NCnJvdW5kKDIuMTIxKQ0KYGBgDQoNCmBgYHtyfQ0KbGlicmFyeShyZWFkcikNCnN0dWRlbnQgPC0gcmVhZF9jc3YoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS90cGVtYXJ0aW4vY291cnNlLTEwNy0xLXByb2dyYW1taW5nLWZvci1kYXRhLXNjaWVuY2UvbWFzdGVyL2RhdGEvc3R1ZGVudC5jc3YiKQ0KbGlicmFyeShkcGx5cikNCmxpYnJhcnkobWFncml0dHIpDQpzdHVkZW50ICU8PiUgbXV0YXRlKA0KICDouqvpq5jntJrot509Y3V0KOi6q+mrmCxjKDAsMTUwLDE1NSwxNjAsMTY1LDE3MCwxNzUsMTgwLDE4NSwyMDApKSkNCmBgYA0K</div>
 
 
 
