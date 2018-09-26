@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537948465263.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3284791567",
+    "id" : "AF572DB3",
+    "lastKnownWriteTime" : 1537949408,
+    "last_content_update" : 1537949408291,
+    "path" : "D:/mission/2018-09-26.Rmd",
+    "project_path" : "2018-09-26.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "26,2",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
