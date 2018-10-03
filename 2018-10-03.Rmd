@@ -2,3 +2,30 @@
 title: "2018-10-03"
 output: html_notebook
 ---
+```{r}
+str_c(letters,LETTERS)
+str_c(letters,LETTERS,sep="-")
+str_c("lowercase: ", letters, ", capital: ", LETTERS)
+```
+
+```{r}
+str_c(letters,LETTERS)
+str_c(letters,LETTERS,sep="-")
+str_c("lowercase: ", letters, ", capital: ", LETTERS)
+```
+
+```{r}
+library(readr)
+githubData <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/githubData.csv")
+```
+
+```{r}
+githubData[c(2,3,4),] -> sampleGithub
+str_c(sampleGithub$`GitHub username`,
+      sampleGithub$`GitHub repo name`)
+str_c("https://github.com/",
+      sampleGithub$`GitHub username`,
+      "/",
+      sampleGithub$`GitHub repo name`)
+```
+
