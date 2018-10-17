@@ -177,8 +177,67 @@ $(document).ready(function () {
 
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShnb29nbGVzaGVldHMpXG5gYGAifQ== -->
+<pre class="r"><code>library(googlesheets)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ3NfYXV0aChuZXdfdXNlciA9IFRSVUUpXG5gYGAifQ== -->
+<pre class="r"><code>gs_auth(new_user = TRUE)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRGlzYWJsaW5nIC5odHRyLW9hdXRoIGJ5IHJlbmFtaW5nIHRvIC5odHRyLW9hdXRoLVNVU1BFTkRFRFxuTm8gdG9rZW4gY3VycmVudGx5IGluIGZvcmNlLlxuV2FpdGluZyBmb3IgYXV0aGVudGljYXRpb24gaW4gYnJvd3Nlci4uLlxuUHJlc3MgRXNjL0N0cmwgKyBDIHRvIGFib3J0XG5BdXRoZW50aWNhdGlvbiBjb21wbGV0ZS5cbiJ9 -->
+<pre><code>Disabling .httr-oauth by renaming to .httr-oauth-SUSPENDED
+No token currently in force.
+Waiting for authentication in browser...
+Press Esc/Ctrl + C to abort
+Authentication complete.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ3NTdXJ2ZXk8LWdzX2tleShcIjFtQzlibnhqMTFOQ05vT0N3MFZtbjRueEVSYkh0TGplR285djlDOWIyR0RFXCIpICAjZG93bmxvYWQgc2hlZXQgaW5mb3JtYXRpb24gYXMgYW4gb2JqZWN0XG5gYGAifQ== -->
+<pre class="r"><code>gsSurvey&lt;-gs_key(&quot;1mC9bnxj11NCNoOCw0Vmn4nxERbHtLjeGo9v9C9b2GDE&quot;)  #download sheet information as an object</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiU2hlZXQgc3VjY2Vzc2Z1bGx5IGlkZW50aWZpZWQ6IFwipf6vWrNxsFS//SAoUmVzcG9uc2VzKVwiXG4ifQ== -->
+<pre><code>Sheet successfully identified: &quot;愼㸵昼㹥愼㹦Z戼㸳q戼㸰T戼㹦昼㹤 (Responses)&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2xhc3NTdXJ2ZXk8LWdzX3JlYWQoZ3NTdXJ2ZXksd3M9MSkgI2FjY2VzcyB0aGUgMXN0IHdvcmtzaGVldFxuYGBgIn0= -->
+<pre class="r"><code>classSurvey&lt;-gs_read(gsSurvey,ws=1) #access the 1st worksheet</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQWNjZXNzaW5nIHdvcmtzaGVldCB0aXRsZWQgJ0Zvcm0gUmVzcG9uc2VzIDEnLlxuIn0= -->
+<pre><code>Accessing worksheet titled 'Form Responses 1'.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5Eb3dubG9hZGluZzogMi4xIGtCICAgICBcbkRvd25sb2FkaW5nOiAyLjEga0IgICAgIFxuRG93bmxvYWRpbmc6IDIuMSBrQiAgICAgXG5Eb3dubG9hZGluZzogMi4xIGtCICAgICBcbkRvd25sb2FkaW5nOiAyLjEga0IgICAgIFxuRG93bmxvYWRpbmc6IDIuMSBrQiAgICAgXG4ifQ== -->
+<pre><code>
+Downloading: 2.1 kB     
+Downloading: 2.1 kB     
+Downloading: 2.1 kB     
+Downloading: 2.1 kB     
+Downloading: 2.1 kB     
+Downloading: 2.1 kB     </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUGFyc2VkIHdpdGggY29sdW1uIHNwZWNpZmljYXRpb246XG5jb2xzKFxuICBUaW1lc3RhbXAgPSBjb2xfY2hhcmFjdGVyKCksXG4gIGBFbWFpbCBBZGRyZXNzYCA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgqW2mVyA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgvse4uSA9IGNvbF9pbnRlZ2VyKCksXG4gIKl+pu2mYabmrEawzyA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgqcqnTyA9IGNvbF9jaGFyYWN0ZXIoKSxcbiAgpbu+x7TBvsekwLzGID0gY29sX2ludGVnZXIoKSxcbiAgpbu+x7TBpdirZaR3sNGlW6SnvdKlfqyhsMogPSBjb2xfY2hhcmFjdGVyKClcbilcbiJ9 -->
+<pre><code>Parsed with column specification:
+cols(
+  Timestamp = col_character(),
+  `Email Address` = col_character(),
+  愼㸹m愼㸶W = col_character(),
+  戼㹥Ǹ戼㸹 = col_integer(),
+  愼㸹~愼㸶攼㹤愼㸶a愼㸶攼㸶愼㹣F戼㸰挼㹦 = col_character(),
+  愼㸹ʧO = col_character(),
+  愼㸵戼㹢戼㹥Ǵ挼㸱戼㹥Ǥ挼㸰戼㹣挼㸶 = col_integer(),
+  愼㸵戼㹢戼㹥Ǵ挼㸱愼㸵ثe愼㸴w戼㸰ѥ[愼㸴愼㸷戼㹤ҥ~愼㹣愼㸱戼㸰挼㹡 = col_character()
+)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMTAtMTciDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIjIwMTgtMTAtMTciDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KYGBge3J9DQpsaWJyYXJ5KGdvb2dsZXNoZWV0cykNCmBgYA0KDQpgYGB7cn0NCmdzX2F1dGgobmV3X3VzZXIgPSBUUlVFKQ0KYGBgDQoNCmBgYHtyfQ0KZ3NTdXJ2ZXk8LWdzX2tleSgiMW1DOWJueGoxMU5DTm9PQ3cwVm1uNG54RVJiSHRMamVHbzl2OUM5YjJHREUiKSAgI2Rvd25sb2FkIHNoZWV0IGluZm9ybWF0aW9uIGFzIGFuIG9iamVjdA0KY2xhc3NTdXJ2ZXk8LWdzX3JlYWQoZ3NTdXJ2ZXksd3M9MSkgI2FjY2VzcyB0aGUgMXN0IHdvcmtzaGVldA0KYGBgDQoNCg==</div>
 
 
 
