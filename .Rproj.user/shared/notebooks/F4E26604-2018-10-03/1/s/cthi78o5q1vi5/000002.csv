@@ -1,0 +1,25 @@
+"0","```r
+str_c(letters,LETTERS)
+```"
+"1"," [1] \"aA\" \"bB\" \"cC\" \"dD\" \"eE\" \"fF\" \"gG\" \"hH\" \"iI\" \"jJ\" \"kK\" \"lL\" \"mM\" \"nN\" \"oO\" \"pP\" \"qQ\"
+[18] \"rR\" \"sS\" \"tT\" \"uU\" \"vV\" \"wW\" \"xX\" \"yY\" \"zZ\"
+"
+"0","```r
+str_c(letters,LETTERS,sep=\"-\")
+```"
+"1"," [1] \"a-A\" \"b-B\" \"c-C\" \"d-D\" \"e-E\" \"f-F\" \"g-G\" \"h-H\" \"i-I\" \"j-J\" \"k-K\" \"l-L\" \"m-M\" \"n-N\"
+[15] \"o-O\" \"p-P\" \"q-Q\" \"r-R\" \"s-S\" \"t-T\" \"u-U\" \"v-V\" \"w-W\" \"x-X\" \"y-Y\" \"z-Z\"
+"
+"0","```r
+str_c(\"lowercase: \", letters, \", capital: \", LETTERS)
+```"
+"1"," [1] \"lowercase: a, capital: A\" \"lowercase: b, capital: B\" \"lowercase: c, capital: C\"
+ [4] \"lowercase: d, capital: D\" \"lowercase: e, capital: E\" \"lowercase: f, capital: F\"
+ [7] \"lowercase: g, capital: G\" \"lowercase: h, capital: H\" \"lowercase: i, capital: I\"
+[10] \"lowercase: j, capital: J\" \"lowercase: k, capital: K\" \"lowercase: l, capital: L\"
+[13] \"lowercase: m, capital: M\" \"lowercase: n, capital: N\" \"lowercase: o, capital: O\"
+[16] \"lowercase: p, capital: P\" \"lowercase: q, capital: Q\" \"lowercase: r, capital: R\"
+[19] \"lowercase: s, capital: S\" \"lowercase: t, capital: T\" \"lowercase: u, capital: U\"
+[22] \"lowercase: v, capital: V\" \"lowercase: w, capital: W\" \"lowercase: x, capital: X\"
+[25] \"lowercase: y, capital: Y\" \"lowercase: z, capital: Z\"
+"

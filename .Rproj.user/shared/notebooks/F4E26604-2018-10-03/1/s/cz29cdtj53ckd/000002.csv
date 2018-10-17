@@ -1,0 +1,12 @@
+"0","```r
+library(readr)
+githubData <- read_csv(\"https://raw.githubusercontent.com/tpemartin/github-data/master/githubData.csv\")
+```"
+"1","Missing column names filled in: 'X1' [1]Parsed with column specification:
+cols(
+  X1 = col_integer(),
+  Timestamp = col_character(),
+  `GitHub username` = col_character(),
+  `GitHub repo name` = col_character()
+)
+"

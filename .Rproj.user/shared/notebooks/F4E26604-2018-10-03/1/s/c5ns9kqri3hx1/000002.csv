@@ -1,0 +1,17 @@
+"0","```r
+githubData[c(2,3,4),] -> sampleGithub
+str_c(sampleGithub$`GitHub username`,
+      sampleGithub$`GitHub repo name`)
+```"
+"1","[1] \"shihhanChiuinclassPractice\" \"YixuanWuudata-science\"      \"sunnzenginClass-Practice\"  
+"
+"0","```r
+str_c(\"https://github.com/\",
+      sampleGithub$`GitHub username`,
+      \"/\",
+      sampleGithub$`GitHub repo name`)
+```"
+"1","[1] \"https://github.com/shihhanChiu/inclassPractice\"
+[2] \"https://github.com/YixuanWuu/data-science\"     
+[3] \"https://github.com/sunnzeng/inClass-Practice\"  
+"
